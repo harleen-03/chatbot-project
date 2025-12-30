@@ -29,18 +29,3 @@ Linting: ESLint
 
 Package Manager: npm
 
-Project Structure 
-chatbot-project/
-│
-├── src/
-│   ├── components/
-│   │   ├── ChatInput.jsx
-│   │   ├── ChatMessages.jsx
-│   │   └── ChatMessage.jsx
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── App.css
-│
-├── package.json
-├── vite.config.js
-└── README.md
