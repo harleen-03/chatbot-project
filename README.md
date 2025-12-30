@@ -1,16 +1,46 @@
-# React + Vite
+A simple Chatbot Web Application built to learn and practice React, Node.js, JavaScript, HTML, and CSS.
+This project helped me understand component-based architecture, state management, and basic frontend–backend interaction.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
 
-Currently, two official plugins are available:
+💬 Chat interface with user & bot messages
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⚛️ Built using React + Vite
 
-## React Compiler
+🔄 Real-time message updates using useState
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+📜 Auto-scroll chat using useRef & useEffect
 
-## Expanding the ESLint configuration
+🤖 Bot replies generated using supersimpledev chatbot
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎨 Styled using CSS
+
+⚡ Fast development with Vite
+
+🛠️ Tech Stack
+
+Frontend: React, JavaScript, HTML, CSS
+
+Build Tool: Vite
+
+State Management: React Hooks
+
+Linting: ESLint
+
+Package Manager: npm
+
+Project Structure 
+chatbot-project/
+│
+├── src/
+│   ├── components/
+│   │   ├── ChatInput.jsx
+│   │   ├── ChatMessages.jsx
+│   │   └── ChatMessage.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── App.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
